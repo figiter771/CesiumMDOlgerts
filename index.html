@@ -1,0 +1,340 @@
+<html>
+
+<head>
+    <title>Cesium</title>
+    <style>
+        @import url(node_modules/cesium/Build/Cesium/Widgets/widgets.css);
+    </style>
+</head>
+
+<body>
+    <div id="cesiumContainer"></div>
+    <script src="node_modules/cesium/Build/Cesium/Cesium.js"></script>
+
+    <script>
+        var viewer = new Cesium.Viewer('cesiumContainer');
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.420282, 57.529492),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.RED.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Zvejnieku ielas kojas',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './asset_flag/scene.gltf',
+                scale : 1.5
+            }
+
+        });
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.420282, 57.529492),
+            ellipse: {
+                semiMinorAxis: 100.0,
+                semiMajorAxis: 100.0,
+                material: Cesium.Color.GREEN.withAlpha(0.5)
+            },
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.424215, 57.535083),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.RED.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Cesu ielas fakultate',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './asset_flag/scene.gltf',
+                scale : 1.5
+            }
+
+        });
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.424215, 57.535083),
+            ellipse: {
+                semiMinorAxis: 100.0,
+                semiMajorAxis: 100.0,
+                material: Cesium.Color.GREEN.withAlpha(0.5)
+            },
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.428173, 57.541711),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.RED.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Terbatas ielas fakultate',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './asset_flag/scene.gltf',
+                scale : 1.5
+            }
+
+        });
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.428173, 57.541711),
+            ellipse: {
+                semiMinorAxis: 100.0,
+                semiMajorAxis: 100.0,
+                material: Cesium.Color.GREEN.withAlpha(0.5)
+            },
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.393686, 57.530840),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.RED.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Auseklu ielas kojas',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './asset_flag/scene.gltf',
+                scale : 1.5
+                
+            }
+
+        });
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.393686, 57.530840),
+            ellipse: {
+                semiMinorAxis: 100.0,
+                semiMajorAxis: 100.0,
+                material: Cesium.Color.GREEN.withAlpha(0.5)
+            },
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.393686, 57.530840),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.RED.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Auseklu ielas kojas',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './asset_flag/scene.gltf',
+                scale : 1.5
+            }
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.424202,57.533893),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.GOLD.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Cesu ielas fakultates Rimi',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './3d_classic_shop/scene.gltf',
+                scale : 2
+            }
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.393015,57.532797),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.GOLD.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Auseklu kooju ielas Rimi',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './3d_classic_shop/scene.gltf',
+                scale : 2
+            }
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.423922,57.538597),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.GOLD.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Valleta',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './3d_classic_shop/scene.gltf',
+                scale : 2
+            }
+
+        });
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.430987,57.543942),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.GOLD.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Terbatas ielas tops',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './3d_classic_shop/scene.gltf',
+                scale : 2
+            }
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.435623,57.536147),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.ROYALBLUE.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Kracites',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './picnic_table/scene.gltf',
+                scale : 0.03
+            }
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.432394,57.533389),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.ROYALBLUE.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Maza pludmale',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './picnic_table/scene.gltf',
+                scale : 0.03
+            }
+
+        });
+
+        var entity = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(25.403594,57.526493),
+            ellipse: {
+                semiMinorAxis: 25.0,
+                semiMajorAxis: 25.0,
+                material: Cesium.Color.ROYALBLUE.withAlpha(0.5)
+            },
+
+            label: {
+                text: 'Dzelzisa sala',
+                font: '14pt monospace',
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                outlineWidth: 2,
+                verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+                pixelOffset: new Cesium.Cartesian2(0, -9)
+            },
+            model: {
+                uri: './picnic_table/scene.gltf',
+                scale : 0.03
+            }
+
+        });
+
+
+
+
+
+        viewer.zoomTo(viewer.primitives);
+
+
+
+    </script>
+
+</body>
+
+</html>
